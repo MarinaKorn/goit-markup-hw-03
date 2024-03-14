@@ -17,6 +17,10 @@ button{
         cursor: pointer;
 }
 
+img{
+        display: block;
+}
+
 *{
         margin: 0;
         padding: 0;
@@ -55,6 +59,8 @@ margin: 0 auto;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        margin-bottom: 16px;
+        display: inline-block;
 }
 
 .logo-part {
@@ -76,7 +82,7 @@ margin: 0 auto;
 .header-nav-list{
        display: flex; 
        gap: 40px;
-       margin-right: 76px;
+       margin-left: 76px;
 }
 
 .nav-link {
@@ -147,8 +153,9 @@ main {
      padding: 16px, 32px;
    width: 169px;
       height: 56px;
+  box-shadow: 0 4px, 4px, 0, rgba(0, 0, 0, 0.15);
       border: none;
-   min-width: 169px
+                
 
 }
 .title-button:hover,
@@ -279,12 +286,11 @@ padding-bottom: 120px;
         margin-bottom: 32px;
 }
 footer{
-        font-family: 'Roboto', sans-serif;
         color: #434455;
         background-color: #2E2F42;
     
 }
-.logo {
+.logo-footer {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;
