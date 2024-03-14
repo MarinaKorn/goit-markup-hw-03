@@ -41,6 +41,7 @@ margin: 0 auto;
 .header{
          padding-top: 24px;
          padding-bottom: 24px;
+         border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container{
@@ -75,7 +76,7 @@ margin: 0 auto;
 .header-nav-list{
        display: flex; 
        gap: 40px;
-       margin-left: 76px;
+       margin-right: 76px;
 }
 
 .nav-link {
@@ -120,7 +121,7 @@ main {
 .hero-wrap{ 
         padding-top: 188px;
         padding-left: 472px;
-        padding-bottom: 292px;
+        padding-bottom: 188px;
         padding-right: 472px;
         background-color: #2e2f42;
 }
@@ -144,11 +145,10 @@ main {
  background: #4d5ae5;     
    border-radius: 4px;
      padding: 16px, 32px;
-                width: 169px;
-                height: 56px;
-                box-shadow: 0 4px, 4px, 0, rgba(0, 0, 0, 0.15);
-                border: none;
-                
+   width: 169px;
+      height: 56px;
+      border: none;
+   min-width: 169px
 
 }
 .title-button:hover,
