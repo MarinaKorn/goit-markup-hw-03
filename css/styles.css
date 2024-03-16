@@ -240,6 +240,7 @@ display: block;
 
 .team-li{
         background-color: #FFFFFF;
+        border-radius: 0px 0px 4px 4px;
 }
 
 .team-foto {
@@ -251,6 +252,10 @@ display: block;
         color: #2e2f42;
         margin-top: 32px;
         margin-bottom: 8px;
+}
+
+.team-div{
+        padding: 32px 0;
 }
 
 .team-job {
