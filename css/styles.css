@@ -153,6 +153,8 @@ main {
   box-shadow: 0 4px, 4px, 0, rgba(0, 0, 0, 0.15);
       border: none;
       margin: 0 auto;
+display: block;
+min-width: 169px;
                 
 
 }
@@ -315,6 +317,8 @@ footer{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+display: inline-block;
+margin-bottom: 16px;
 }
 
 .logo-part {
@@ -332,6 +336,5 @@ color: #f4f4fd;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
-        margin-top: 16px;
         max-width: 264px;
 }
