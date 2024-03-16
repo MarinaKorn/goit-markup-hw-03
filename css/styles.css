@@ -199,6 +199,10 @@ min-width: 169px;
         margin-bottom: 8px;
 }
 
+.info-li{
+        width: calc((100% - 72px) / 4);
+}
+
 .info-down {
         font-weight: 400;
         font-size: 16px;
