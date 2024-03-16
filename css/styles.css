@@ -27,9 +27,7 @@ img{
         list-style: none;
         box-sizing: border-box;
 }
-address{ 
-        font-style: normal;
-}
+
 
 h1, h2, h3, h4, h5, h6, p{
         margin-bottom: 0;
@@ -43,13 +41,14 @@ margin: 0 auto;
 }
 
 .header{
-         padding-top: 24px;
-         padding-bottom: 24px;
-         border-bottom: 1px solid #e7e9fc;
+ padding-top: 24px;
+ padding-bottom: 24px;
+        border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container{
         display: flex;
+        align-items: center;
 }
 .logo {
     font-family: Raleway, sans-serif;
@@ -61,6 +60,7 @@ margin: 0 auto;
         color: #4d5ae5;
         margin-bottom: 16px;
         display: inline-block;
+        margin-right: 76px;
 }
 
 .logo-part {
@@ -73,16 +73,13 @@ margin: 0 auto;
 
 .header-nav{
         display: flex;
-        flex-grow: 1;
         align-items: center;
-        margin-right: 332px;
 
 }
 
 .header-nav-list{
        display: flex; 
        gap: 40px;
-       margin-left: 76px;
 }
 
 .nav-link {
@@ -91,6 +88,9 @@ margin: 0 auto;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding-top: 24px;
+    padding-bottom: 24px;
+    display: block;
 }
 .nav-link:hover,
 .nav-link:focus{
@@ -99,6 +99,7 @@ margin: 0 auto;
 
 .address {
     font-style: normal;
+    margin-left: auto;
 }
 .address-list{
         display: flex;
@@ -122,14 +123,8 @@ main {
     
 .title-back{
         background-color: #2e2f42;
-}
-
-.hero-wrap{ 
-        padding-top: 188px;
-        padding-left: 472px;
+        padding-top: 188px;      
         padding-bottom: 188px;
-        padding-right: 472px;
-        background-color: #2e2f42;
 }
 
 .title {
@@ -141,6 +136,8 @@ main {
         color: #fff;
         margin-bottom: 48px;
       max-width: 496px;
+      margin-left: auto;
+      margin-right: auto;
 }
 
 .title-button {
@@ -155,6 +152,7 @@ main {
       height: 56px;
   box-shadow: 0 4px, 4px, 0, rgba(0, 0, 0, 0.15);
       border: none;
+      margin: 0 auto;
                 
 
 }
@@ -163,6 +161,20 @@ main {
     background-color: #404BBF;
     cursor: pointer 
 }
+
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+
 .info-back{
     background-color: #fff;
     padding-bottom: 120px;
@@ -207,6 +219,11 @@ main {
         line-height: 1.11;
         text-transform: capitalize;
         margin-bottom: 72px 
+}
+.team-img{
+display: block;
+ max-width: 100%;
+  height: auto;
 }
 
 .team-list{
