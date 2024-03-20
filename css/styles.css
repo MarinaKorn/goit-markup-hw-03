@@ -41,8 +41,6 @@ margin: 0 auto;
 }
 
 .header{
- padding-top: 24px;
- padding-bottom: 24px;
         border-bottom: 1px solid #e7e9fc;
 }
 
@@ -58,7 +56,6 @@ margin: 0 auto;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
-        margin-bottom: 16px;
         display: inline-block;
         margin-right: 76px;
 }
@@ -250,8 +247,7 @@ display: block;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        margin-top: 32px;
-        margin-bottom: 8px;
+
 }
 
 .team-div{
@@ -265,7 +261,7 @@ display: block;
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
-        margin-bottom: 32px;
+
 
 }
 
@@ -298,8 +294,7 @@ padding-bottom: 120px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        margin-top: 32px;
-        margin-bottom: 8px;
+ 
 }
 
 .portfolio-li{
@@ -319,7 +314,7 @@ padding-bottom: 120px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        margin-bottom: 32px;
+
 }
 footer{
         color: #434455;
